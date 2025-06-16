@@ -37,7 +37,7 @@ Projeto desenvolvido com **Expo** com o objetivo de visualizar veículos e seus 
 
 1.  **Clone o repositório:**
 ```bash
-git clone https://github.com/brandonklk/Agriculture-API.git
+git clone https://github.com/brandonklk/cars-app
 ```
 
 2.  **Instale as dependências:**
