@@ -1,0 +1,20 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "baseUrl": ".", // necessário para que "paths" funcione corretamente
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
+    "types": ["nativewind/types", "jest"]
+  },
+  "include": [
+    "app/**/*",
+    "src/**/*",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts",
+    "nativewind-env.d.ts"
+  ]
+}
